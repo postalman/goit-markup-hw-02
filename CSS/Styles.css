@@ -2,35 +2,197 @@ body {
   font-family: "Roboto";
   background-color: #ffffff;
   color: #434455;
+  font-style: normal;
 }
 
-.logo {text-decoration: none;
-  font-family: 'Raleway';
-  font-style: normal;
+/* Logo */
+
+.logo-header {
+  text-decoration: none;
+  font-family: "Raleway";
   font-weight: 800;
   font-size: 6;
-  line-height: 24px;}
-span {color: #4D5AE5}
+  line-height: 24px;
+  color: #2e2f42;
+}
+.span-header {
+  color: #4d5ae5;
+}
 
-.menu-nav {list-style: none;
-  }
-.mail-tel {font-style: normal;
+.logo-footer {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 6;
+  line-height: 24px;
+  color: #f4f4fd;
+}
+.span-footer {
+  color: #4d5ae5;
+}
+
+/* Menu Nav */
+
+.menu-nav {
   list-style: none;
-  }
-.hero-image {background: #2E2F42;}
-.link {text-decoration: none;
-  color: #2E2F42;}
-.link-address {text-decoration: none;
-  color: #434455;}
-h1 {color: #ffffff;
-  font-family: 'Roboto';
+}
+.mail-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
   font-style: normal;
+  list-style: none;
+}
+
+/* Hero Image */
+
+.hero-image {
+  background: #2e2f42;
+}
+
+/* Links */
+
+.link {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.link:hover,
+.link:focus {
+  color: #4d5ae5;
+}
+
+.link-address:hover,
+.link-address:focus {
+  color: #4d5ae5;
+}
+
+.link-address {
+  text-decoration: none;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+/* Order Service Button */
+
+.order-service-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.orderservice:hover,
+.orderservice:focus {
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.orderservice {
+  background: #4d5ae5;
+}
+
+/* Sections */
+
+h1 {
+  color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   letter-spacing: 0.02em;
-  }
-.button-all:hover {
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Feature Text */
+
+.feature-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.feature-list {
+  margin: 0;
+
+  padding: 0;
+}
+.feature {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section2 {
+  list-style: none;
+}
+.ourteam {
+  background: #f4f4fd;
+}
+.section3 {
+  list-style: none;
+}
+.footerbackground {
+  background: #2e2f42;
+}
+.footertext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+/* Portfolio */
+
+.button-all:hover,
+.button-all:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -40,34 +202,27 @@ h1 {color: #ffffff;
   justify-content: center;
   align-items: center;
   padding: 12px 24px;
-
-  width: 116px;
-  height: 48px;
-
   background: #f4f4fd;
-
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-
   flex: none;
   order: 1;
   flex-grow: 0;
-}
-.filters-text {
-  text-decoration: none;
-
-  width: 68px;
-  height: 24px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
+  color: #4d5ae5;
+  font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-
-  color: #4d5ae5;
 }
-
+.button-text:hover,
+.button-text:focus {
+  color: #ffffff;
+}
+.filters {
+  list-style: none;
+}
+.row1 {
+  list-style: none;
+}
 .filters-text:hover {
   color: #ffffff;
 }
