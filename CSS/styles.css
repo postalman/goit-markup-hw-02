@@ -38,7 +38,7 @@ body {
 }
 .mail-tel {
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 24px;
   letter-spacing: 0.02em;
   font-style: normal;
   list-style: none;
@@ -57,7 +57,7 @@ body {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 24px;
   letter-spacing: 0.02em;
   flex: none;
   order: 0;
@@ -78,7 +78,7 @@ body {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 24px;
   letter-spacing: 0.02em;
 }
 
@@ -87,7 +87,7 @@ body {
 .order-service-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 24px;
   color: #ffffff;
   flex: none;
   order: 0;
@@ -111,13 +111,13 @@ h1 {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
-  line-height: 0.94;
+  line-height: 60px;
   letter-spacing: 0.02em;
 }
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.9;
+  line-height: 40px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
@@ -125,7 +125,7 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 0.84;
+  line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
   flex: none;
@@ -150,7 +150,7 @@ h3 {
 
 .feature-text {
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
   flex: none;
@@ -182,7 +182,7 @@ h3 {
 }
 .footertext {
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 24px;
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
@@ -209,7 +209,7 @@ h3 {
   color: #4d5ae5;
   font-weight: 600;
   font-size: 16px;
-  line-height: 0.67;
+  line-height: 24px;
   cursor: pointer;
 }
 
