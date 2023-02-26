@@ -1,34 +1,41 @@
+:root {
+  --accent-color: #4d5ae5;
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --text: #ffffff;
+}
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif ;
+  font-family: 'Roboto', 'Raleway', sans-serif;
   background-color: #ffffff;
-  color: #434455;
-  font-style: normal;
+  font-size: 16px;
 }
 
 /* Logo */
 
 .logo-header {
+  font-family: 'Raleway';
   text-decoration: none;
-  font-family: "Raleway";
   font-weight: 800;
-  font-size: 6;
-  line-height: 24px;
-  color: #2e2f42;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
 }
 .span-header {
-  color: #4d5ae5;
+  color: var(--accent-color);
 }
 
 .logo-footer {
   text-decoration: none;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 800;
-  font-size: 6;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 1.33;
   color: #f4f4fd;
 }
 .span-footer {
-  color: #4d5ae5;
+  color: var(--accent-color);
 }
 
 /* Menu Nav */
@@ -37,7 +44,6 @@ body {
   list-style: none;
 }
 .mail-tel {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
@@ -46,38 +52,34 @@ body {
 
 /* Hero Image */
 
-.hero-image {
+.hero {
   background: #2e2f42;
 }
 
 /* Links */
 
-.link {
+.nav-link {
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--secondary-text-color);
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
-.link:hover,
-.link:focus {
-  color: #4d5ae5;
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
 }
 
-.link-address:hover,
-.link-address:focus {
-  color: #4d5ae5;
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
 }
 
-.link-address {
+.address-link {
+  font-style: normal;
   text-decoration: none;
-  color: #434455;
-  font-weight: 400;
-  font-size: 16px;
+  color: var(--primary-text-color);
+
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -86,51 +88,44 @@ body {
 
 .order-service-text {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .orderservice:hover,
 .orderservice:focus {
-  background: #4d5ae5;
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .orderservice {
-  background: #4d5ae5;
+  background: var(--accent-color);
   cursor: pointer;
 }
 
 /* Sections */
 
-h1 {
+.hero-title {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-h2 {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--secondary-text-color);
 }
-h3 {
+.feature-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: var(--secondary-text-color);
 }
 .hidden {
   position: absolute;
@@ -148,11 +143,10 @@ h3 {
 
 /* Feature Text */
 
-.feature-text {
-  font-size: 16px;
+.team-position {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--primary-text-color);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -180,8 +174,7 @@ h3 {
 .footerbackground {
   background: #2e2f42;
 }
-.footertext {
-  font-size: 16px;
+.footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
@@ -192,23 +185,15 @@ h3 {
 .button-all:hover,
 .button-all:focus {
   color: #ffffff;
-  background-color: #404bbf;
+  background-color: var(--accent-color);
 }
 .button-all {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 12px 24px;
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   color: #4d5ae5;
   font-weight: 600;
-  font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
 }
