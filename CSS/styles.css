@@ -89,7 +89,7 @@ body {
 .order-service-text {
   font-weight: 500;
   line-height: 1.5;
-  color: #ffffff;
+  color: var(--text);
 }
 
 .orderservice:hover,
@@ -106,7 +106,7 @@ body {
 /* Sections */
 
 .hero-title {
-  color: #ffffff;
+  color: var(--text);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -184,7 +184,7 @@ body {
 
 .button-all:hover,
 .button-all:focus {
-  color: #ffffff;
+  color: var(--text);
   background-color: var(--accent-color);
 }
 .button-all {
@@ -200,7 +200,7 @@ body {
 
 .button-text:hover,
 .button-text:focus {
-  color: #ffffff;
+  color: var(--text);
 }
 .filters {
   list-style: none;
@@ -209,5 +209,5 @@ body {
   list-style: none;
 }
 .filters-text:hover {
-  color: #ffffff;
+  color: var(--text);
 }
