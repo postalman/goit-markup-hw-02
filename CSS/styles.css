@@ -2,11 +2,11 @@
   --accent-color: #4d5ae5;
   --primary-text-color: #434455;
   --secondary-text-color: #2e2f42;
-  --text: #ffffff;
+  --white-color: #ffffff;
 }
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
-  background-color: #ffffff;
+  background-color: var(--white-color);
   font-size: 16px;
 }
 
@@ -89,7 +89,7 @@ body {
 .order-service-text {
   font-weight: 500;
   line-height: 1.5;
-  color: var(--text);
+  color: var(--white-color);
 }
 
 .orderservice:hover,
@@ -106,21 +106,20 @@ body {
 /* Sections */
 
 .hero-title {
-  color: var(--text);
-  font-weight: 700;
+  color: var(--white-color);
+  
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-.section-title {
-  font-weight: 700;
+.section-title2 {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-text-color);
 }
-.feature-title {
+.section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -141,15 +140,19 @@ body {
   overflow: hidden;
 }
 
-/* Feature Text */
+/* Section Text */
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);}
 
 .team-position {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  
 }
 .feature-list {
   margin: 0;
@@ -184,7 +187,7 @@ body {
 
 .button-all:hover,
 .button-all:focus {
-  color: var(--text);
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 .button-all {
@@ -200,7 +203,7 @@ body {
 
 .button-text:hover,
 .button-text:focus {
-  color: var(--text);
+  color: var(--white-color);
 }
 .filters {
   list-style: none;
@@ -209,5 +212,5 @@ body {
   list-style: none;
 }
 .filters-text:hover {
-  color: var(--text);
+  color: var(--white-color);
 }
